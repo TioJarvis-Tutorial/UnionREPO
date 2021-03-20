@@ -1,0 +1,44 @@
+<settings>
+<category label="Complementos">
+	<setting label="[COLOR lightblue]Configurações de Complemento:[/COLOR]" type="lsep"/>
+	<setting label="Verificar Complementos" id="check_addon" type="bool" default="true" />
+	<setting label="Baixar e Instalar Elementum" id="elementum" type="bool" default="true" />
+	<setting label="Baixar e Instalar Youtube" id="youtube" type="bool" default="false" />
+</category>
+		
+</settings>
+<setting type="lsep"/>
+		<setting default="false" />
+		<setting id="proxy_try" type="enum" values="1 Vez|2 Vezes|3 Vezes|4 Vezes|5 Vezes|6 Vezes|6 Vezes|7 Vezes|8 Vezes|9 Vezes|10 Vezes" default="4" />
+		<setting type="bool"/>
+		<setting type="bool"/>
+		<setting type="bool"/>
+		<setting type="bool"/>
+		<setting type="bool"/>
+		<setting type="bool"/>
+
+
+		<setting type="lsep"/>
+		<setting id="uhdtv" type="bool" default="true" />
+		<setting id="fhdtv" type="bool" default="true" />
+		<setting id="hdtv" type="bool" default="true" />
+		<setting id="sdtv" type="bool" default="true" />
+		<setting id="filtrar" type="enum" values="" default="0" />
+
+		<setting type="lsep"/>
+		<setting id="adult" type="bool" default="false" />
+		<setting id="adult2" type="bool" default="false" />
+		<setting id="keyboard" type="enum" values="Númerico|Alfanúmerico" default="0" />
+		<setting type="action" action="RunScript(plugin.video.flechanegra.Matrix, SetPassword)"/>
+		<setting type="bool"/>
+		
+		<setting type="lsep"/>
+		<setting default="false" />
+		<setting type="action" action="RunScript(plugin.video.flechanegra.Matrix, limparFavoritos)"/>	
+		<setting id="ytbmode" type="enum" values="Interno 1|Interno 2|Externo" default="1" />	
+		<setting id="use_thumb" type="bool" default="false" />
+
+
+
+
+	

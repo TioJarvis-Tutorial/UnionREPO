@@ -1,0 +1,239 @@
+<addons>
+<addon id="plugin.video.Kraken" name="[B][COLOR blueviolet]KRAKEN[/COLOR][/B] - [B][COLOR green]MATRIX[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="[B][COLOR white]Davy Jones[/COLOR][/B]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">[B][COLOR blueviolet]KRAKEN MATRIX - Filmes e Series, você vai encontrar aqui, então entre e fique a vontade[/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR white]Davy Jones - "Você teme a Morte?"[/COLOR][/B]</description>
+    <disclaimer lang="en">[B][COLOR gold]Duvidas ou Sugestões nos chame no WhatsApp (11) 95202-7986[/COLOR][/B]</disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
+<addon id="plugin.video.micoleaodublado.matrix" name="[B][COLOR white]Mico-leão[/COLOR] [COLOR orange]Dublado[/COLOR][/B]" version="3.0.1+matrix.1" provider-name="[B][COLOR white]fb.com/micoleaodublado[/COLOR][/B]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">[COLOR orange]| [/COLOR]FILMES E SERIES[COLOR orange] |[/COLOR][COLOR orange] [/COLOR]TORRENT E WEB[COLOR orange] |[/COLOR]</summary>
+    <description lang="en">[B][COLOR orange] MICO-LEAO DUBLADO [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
+    <disclaimer lang="en">[B][COLOR orange]Não hospedamnos nenhum conteúdo, os links disponiveis são em sua grande maioria Torrents disponiveis na internet![/COLOR][/B]</disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/1.png</screenshot>
+<screenshot>resources/screenshots/2.png</screenshot>
+<screenshot>resources/screenshots/3.png</screenshot>
+</assets>
+	<news>
+[B][COLOR orange]VERSÃO 3.0.1 - ATUALIZAÇÃO DE SEGURANÇA[/COLOR][/B]
+	</news>
+</extension>
+</addon>
+<addon id="plugin.video.newsupremo" name="[B][COLOR red]new[/COLOR] [COLOR blue]supremo[/COLOR][/B]" version="3.0.0+matrix" provider-name="Equipe KODISH">  
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">TODO CONTEÚDO DESSE EDDONS FOI EXTRAÍDO DENTRO DO GOOGLE, OU SEJA, ESTA VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIROS.</summary>
+    <description lang="en">descricao</description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
+<addon id="plugin.video.VisionPlay" name="[B][COLOR white]VISION PLAY[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="[B][COLOR white]Team VISION[/COLOR][/B]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">[COLOR white][B]VISION TEAM - Filmes e Series, você vai encontrar aqui, então entre e fique a vontade[/B][/COLOR]</summary>
+    <description lang="en">[COLOR white][B]Tudo o que você precisará quando o universo acabar é de uma toalha.[/B][/COLOR]</description>
+    <disclaimer lang="en">[COLOR gold][B]Duvidas ou Sugestões nos chame no WhatsApp (11) 98582-9156[/B][/COLOR]</disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
+<addon id="plugin.video.CanalRicos" name="[COLOR white][B]CanaL[/B][/COLOR][COLOR red][B]Ricos[/B][/COLOR]" version="2.0.0+matrix.1" provider-name="DjRicos"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">CanalRicos</summary>
+    <description lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</description>
+    <disclaimer lang="Em caso de Duvida ou Sugestão entre em contato com o Adm do Addon"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
+<addon id="plugin.video.AsylumMorningstar.matrix" name="[B][COLOR white]Asylum[/COLOR][/B] [B][COLOR red]Morningstar[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="Luk Morningstar"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">[B][COLOR white]Asylum[/COLOR][/B] [B][COLOR red]Morningstar[/COLOR][/B] - [B]Seja Bem Vindo[/B]</summary>
+	<summary lang="pt">[B][COLOR white]Asylum[/COLOR][/B] [B][COLOR red]Morningstar[/COLOR][/B] - [B]Seja Bem Vindo[/B]o</summary>
+	<description lang="en">Addon destinados aos amantes de filmes de Terror, se você tem o sangue fraco, seu lugar não é aqui!! kkk</description>
+	<description lang="pt">Entre Curta e Trema de Medo com o nosso acervo...</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Asylum Morningstar
+	</news>
+</extension>
+</addon>
+<addon id="plugin.video.Addon.BXL" name="[B][COLOR red]ADDON[/COLOR] [COLOR blue]BXL[/COLOR][/B]" version="3.0.0+matrix" provider-name="Equipe KODISH">  
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">TODO CONTEÚDO DESSE EDDONS FOI EXTRAÍDO DENTRO DO GOOGLE, OU SEJA, ESTA VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIROS.</summary>
+    <description lang="en">descricao</description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
+<addon id="plugin.video.Horizonhd" name="[COLOR orange][B]Horizonhd[/B][/COLOR]" version="3.0.0+matrix" provider-name="[COLOR blue][B]Repo UNION KODI BR[/B][/COLOR]">  
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">TODO CONTEÚDO DESSE EDDONS FOI EXTRAÍDO DENTRO DO GOOGLE, OU SEJA, ESTA VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIROS.</summary>
+    <description lang="en">descricao</description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
+<addon id="plugin.video.feracanais.matrix" name="[B][COLOR yellow]FERA CANAIS[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="[B][COLOR red]Fera Canais[/COLOR][/B]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">[B][COLOR red]| [/COLOR][COLOR yellow]CANAIS DE TV AO VIVO[/COLOR][COLOR red]| [/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR red] FERA CANAIS ADDON [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.gif</icon>
+       <fanart>fanart.gif</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>FERA CANAIS NOVA VERSÃO PARA KODI 19 - MATRIX ! 
+	</news>
+</extension>
+</addon>
+</addons>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Kraken" name="[B][COLOR blueviolet]KRAKEN[/COLOR][/B] - [B][COLOR green]MATRIX[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="[B][COLOR white]Davy Jones[/COLOR][/B]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">[B][COLOR blueviolet]KRAKEN MATRIX - Filmes e Series, você vai encontrar aqui, então entre e fique a vontade[/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR white]Davy Jones - "Você teme a Morte?"[/COLOR][/B]</description>
+    <disclaimer lang="en">[B][COLOR gold]Duvidas ou Sugestões nos chame no WhatsApp (11) 95202-7986[/COLOR][/B]</disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>

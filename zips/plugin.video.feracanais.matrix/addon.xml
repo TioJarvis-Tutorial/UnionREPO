@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.feracanais.matrix" name="[B][COLOR yellow]FERA CANAIS[/COLOR][/B]" version="1.0.0+matrix.1" provider-name="[B][COLOR red]Fera Canais[/COLOR][/B]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">[B][COLOR red]| [/COLOR][COLOR yellow]CANAIS DE TV AO VIVO[/COLOR][COLOR red]| [/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR red] FERA CANAIS ADDON [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.gif</icon>
+       <fanart>fanart.gif</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>FERA CANAIS NOVA VERSÃO PARA KODI 19 - MATRIX ! 
+	</news>
+</extension>
+</addon>

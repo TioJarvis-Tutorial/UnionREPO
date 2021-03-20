@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.UnionREPO" name="[B][COLOR orange]UNION[/COLOR][/B] [B][COLOR white]REPO[/COLOR][/B]" version="1.2.1" provider-name="UNION REPO TEAM">
+    <extension point="xbmc.addon.repository" name="Nome Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Anubis-team/UnionREPO/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Anubis-team/UnionREPO/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Anubis-team/UnionREPO/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[B][COLOR orange]UNION[/COLOR][/B] [B][COLOR white]REPO[/COLOR][/B]</summary>
+        <description>[B][COLOR orange]UNION[/COLOR][/B] [B][COLOR white]REPO[/COLOR][/B] - OS MELHORES ADDONS PARA KODI BR</description>
+        <disclaimer>[B][COLOR orange]TODOS OS ADDONS AQUI PRESENTES FAZEM PARTE DA REPO UNION[/COLOR][/B]</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

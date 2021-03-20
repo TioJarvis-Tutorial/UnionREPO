@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.micoleaodublado.matrix" name="[B][COLOR white]Mico-leão[/COLOR] [COLOR orange]Dublado[/COLOR][/B]" version="3.0.1+matrix.1" provider-name="[B][COLOR white]fb.com/micoleaodublado[/COLOR][/B]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">[COLOR orange]| [/COLOR]FILMES E SERIES[COLOR orange] |[/COLOR][COLOR orange] [/COLOR]TORRENT E WEB[COLOR orange] |[/COLOR]</summary>
+    <description lang="en">[B][COLOR orange] MICO-LEAO DUBLADO [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
+    <disclaimer lang="en">[B][COLOR orange]Não hospedamnos nenhum conteúdo, os links disponiveis são em sua grande maioria Torrents disponiveis na internet![/COLOR][/B]</disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/1.png</screenshot>
+<screenshot>resources/screenshots/2.png</screenshot>
+<screenshot>resources/screenshots/3.png</screenshot>
+</assets>
+	<news>
+[B][COLOR orange]VERSÃO 3.0.1 - ATUALIZAÇÃO DE SEGURANÇA[/COLOR][/B]
+	</news>
+</extension>
+</addon>
